@@ -1,0 +1,298 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Code\\CompileFile\\.netCoreAPI\\MyWebApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8897D3BD-80E0-469D-BE21-CC2B546F3C3C}|WebApplication1\\WebApplication1.csproj|d:\\code\\compilefile\\.netcoreapi\\mywebapi\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8897D3BD-80E0-469D-BE21-CC2B546F3C3C}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8897D3BD-80E0-469D-BE21-CC2B546F3C3C}|WebApplication1\\WebApplication1.csproj|d:\\code\\compilefile\\.netcoreapi\\mywebapi\\webapplication1\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8897D3BD-80E0-469D-BE21-CC2B546F3C3C}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8897D3BD-80E0-469D-BE21-CC2B546F3C3C}|WebApplication1\\WebApplication1.csproj|d:\\code\\compilefile\\.netcoreapi\\mywebapi\\webapplication1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8897D3BD-80E0-469D-BE21-CC2B546F3C3C}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8897D3BD-80E0-469D-BE21-CC2B546F3C3C}|WebApplication1\\WebApplication1.csproj|d:\\code\\compilefile\\.netcoreapi\\mywebapi\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8897D3BD-80E0-469D-BE21-CC2B546F3C3C}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8897D3BD-80E0-469D-BE21-CC2B546F3C3C}|WebApplication1\\WebApplication1.csproj|d:\\code\\compilefile\\.netcoreapi\\mywebapi\\webapplication1\\repositories\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8897D3BD-80E0-469D-BE21-CC2B546F3C3C}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\repositories\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8897D3BD-80E0-469D-BE21-CC2B546F3C3C}|WebApplication1\\WebApplication1.csproj|d:\\code\\compilefile\\.netcoreapi\\mywebapi\\webapplication1\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8897D3BD-80E0-469D-BE21-CC2B546F3C3C}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8897D3BD-80E0-469D-BE21-CC2B546F3C3C}|WebApplication1\\WebApplication1.csproj|d:\\code\\compilefile\\.netcoreapi\\mywebapi\\webapplication1\\models\\signinmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8897D3BD-80E0-469D-BE21-CC2B546F3C3C}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\signinmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8897D3BD-80E0-469D-BE21-CC2B546F3C3C}|WebApplication1\\WebApplication1.csproj|d:\\code\\compilefile\\.netcoreapi\\mywebapi\\webapplication1\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8897D3BD-80E0-469D-BE21-CC2B546F3C3C}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8897D3BD-80E0-469D-BE21-CC2B546F3C3C}|WebApplication1\\WebApplication1.csproj|d:\\code\\compilefile\\.netcoreapi\\mywebapi\\webapplication1\\models\\signupmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8897D3BD-80E0-469D-BE21-CC2B546F3C3C}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\signupmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8897D3BD-80E0-469D-BE21-CC2B546F3C3C}|WebApplication1\\WebApplication1.csproj|d:\\code\\compilefile\\.netcoreapi\\mywebapi\\webapplication1\\data\\bookstorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8897D3BD-80E0-469D-BE21-CC2B546F3C3C}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\data\\bookstorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8897D3BD-80E0-469D-BE21-CC2B546F3C3C}|WebApplication1\\WebApplication1.csproj|d:\\code\\compilefile\\.netcoreapi\\mywebapi\\webapplication1\\data\\applicationusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8897D3BD-80E0-469D-BE21-CC2B546F3C3C}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\data\\applicationusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8897D3BD-80E0-469D-BE21-CC2B546F3C3C}|WebApplication1\\WebApplication1.csproj|d:\\code\\compilefile\\.netcoreapi\\mywebapi\\webapplication1\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8897D3BD-80E0-469D-BE21-CC2B546F3C3C}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8897D3BD-80E0-469D-BE21-CC2B546F3C3C}|WebApplication1\\WebApplication1.csproj|d:\\code\\compilefile\\.netcoreapi\\mywebapi\\webapplication1\\data\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8897D3BD-80E0-469D-BE21-CC2B546F3C3C}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\data\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8897D3BD-80E0-469D-BE21-CC2B546F3C3C}|WebApplication1\\WebApplication1.csproj|d:\\code\\compilefile\\.netcoreapi\\mywebapi\\webapplication1\\models\\bookmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8897D3BD-80E0-469D-BE21-CC2B546F3C3C}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\bookmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8897D3BD-80E0-469D-BE21-CC2B546F3C3C}|WebApplication1\\WebApplication1.csproj|d:\\code\\compilefile\\.netcoreapi\\mywebapi\\webapplication1\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8897D3BD-80E0-469D-BE21-CC2B546F3C3C}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8897D3BD-80E0-469D-BE21-CC2B546F3C3C}|WebApplication1\\WebApplication1.csproj|d:\\code\\compilefile\\.netcoreapi\\mywebapi\\webapplication1\\repositories\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8897D3BD-80E0-469D-BE21-CC2B546F3C3C}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\repositories\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Book.cs",
+              "DocumentMoniker": "D:\\Code\\CompileFile\\.netCoreAPI\\MyWebApi\\WebApplication1\\Data\\Book.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Data\\Book.cs",
+              "ToolTip": "D:\\Code\\CompileFile\\.netCoreAPI\\MyWebApi\\WebApplication1\\Data\\Book.cs",
+              "RelativeToolTip": "WebApplication1\\Data\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T03:19:31.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BookModel.cs",
+              "DocumentMoniker": "D:\\Code\\CompileFile\\.netCoreAPI\\MyWebApi\\WebApplication1\\Models\\BookModel.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\BookModel.cs",
+              "ToolTip": "D:\\Code\\CompileFile\\.netCoreAPI\\MyWebApi\\WebApplication1\\Models\\BookModel.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\BookModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T08:22:39.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BookStoreContext.cs",
+              "DocumentMoniker": "D:\\Code\\CompileFile\\.netCoreAPI\\MyWebApi\\WebApplication1\\Data\\BookStoreContext.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Data\\BookStoreContext.cs",
+              "ToolTip": "D:\\Code\\CompileFile\\.netCoreAPI\\MyWebApi\\WebApplication1\\Data\\BookStoreContext.cs",
+              "RelativeToolTip": "WebApplication1\\Data\\BookStoreContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T03:18:37.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IBookRepository.cs",
+              "DocumentMoniker": "D:\\Code\\CompileFile\\.netCoreAPI\\MyWebApi\\WebApplication1\\Repositories\\IBookRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Repositories\\IBookRepository.cs",
+              "ToolTip": "D:\\Code\\CompileFile\\.netCoreAPI\\MyWebApi\\WebApplication1\\Repositories\\IBookRepository.cs",
+              "RelativeToolTip": "WebApplication1\\Repositories\\IBookRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T03:18:02.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "D:\\Code\\CompileFile\\.netCoreAPI\\MyWebApi\\WebApplication1\\Repositories\\BookRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Repositories\\BookRepository.cs",
+              "ToolTip": "D:\\Code\\CompileFile\\.netCoreAPI\\MyWebApi\\WebApplication1\\Repositories\\BookRepository.cs",
+              "RelativeToolTip": "WebApplication1\\Repositories\\BookRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T03:18:01.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\Code\\CompileFile\\.netCoreAPI\\MyWebApi\\WebApplication1\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\Code\\CompileFile\\.netCoreAPI\\MyWebApi\\WebApplication1\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T14:05:32.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Code\\CompileFile\\.netCoreAPI\\MyWebApi\\WebApplication1\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Code\\CompileFile\\.netCoreAPI\\MyWebApi\\WebApplication1\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T14:58:42.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationUsers.cs",
+              "DocumentMoniker": "D:\\Code\\CompileFile\\.netCoreAPI\\MyWebApi\\WebApplication1\\Data\\ApplicationUsers.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Data\\ApplicationUsers.cs",
+              "ToolTip": "D:\\Code\\CompileFile\\.netCoreAPI\\MyWebApi\\WebApplication1\\Data\\ApplicationUsers.cs",
+              "RelativeToolTip": "WebApplication1\\Data\\ApplicationUsers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T14:13:34.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountRepository.cs",
+              "DocumentMoniker": "D:\\Code\\CompileFile\\.netCoreAPI\\MyWebApi\\WebApplication1\\Repositories\\AccountRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Repositories\\AccountRepository.cs",
+              "ToolTip": "D:\\Code\\CompileFile\\.netCoreAPI\\MyWebApi\\WebApplication1\\Repositories\\AccountRepository.cs",
+              "RelativeToolTip": "WebApplication1\\Repositories\\AccountRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T14:10:14.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IAccountRepository.cs",
+              "DocumentMoniker": "D:\\Code\\CompileFile\\.netCoreAPI\\MyWebApi\\WebApplication1\\Repositories\\IAccountRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Repositories\\IAccountRepository.cs",
+              "ToolTip": "D:\\Code\\CompileFile\\.netCoreAPI\\MyWebApi\\WebApplication1\\Repositories\\IAccountRepository.cs",
+              "RelativeToolTip": "WebApplication1\\Repositories\\IAccountRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T14:08:20.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SignUpModel.cs",
+              "DocumentMoniker": "D:\\Code\\CompileFile\\.netCoreAPI\\MyWebApi\\WebApplication1\\Models\\SignUpModel.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\SignUpModel.cs",
+              "ToolTip": "D:\\Code\\CompileFile\\.netCoreAPI\\MyWebApi\\WebApplication1\\Models\\SignUpModel.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\SignUpModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T14:04:46.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SignInModel.cs",
+              "DocumentMoniker": "D:\\Code\\CompileFile\\.netCoreAPI\\MyWebApi\\WebApplication1\\Models\\SignInModel.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\SignInModel.cs",
+              "ToolTip": "D:\\Code\\CompileFile\\.netCoreAPI\\MyWebApi\\WebApplication1\\Models\\SignInModel.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\SignInModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T14:03:14.298Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Code\\CompileFile\\.netCoreAPI\\MyWebApi\\WebApplication1\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "WebApplication1\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Code\\CompileFile\\.netCoreAPI\\MyWebApi\\WebApplication1\\Properties\\launchSettings.json",
+              "RelativeToolTip": "WebApplication1\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-19T10:52:13.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Code\\CompileFile\\.netCoreAPI\\MyWebApi\\WebApplication1\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "WebApplication1\\appsettings.Development.json",
+              "ToolTip": "D:\\Code\\CompileFile\\.netCoreAPI\\MyWebApi\\WebApplication1\\appsettings.Development.json",
+              "RelativeToolTip": "WebApplication1\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-19T10:45:49.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Code\\CompileFile\\.netCoreAPI\\MyWebApi\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "D:\\Code\\CompileFile\\.netCoreAPI\\MyWebApi\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T14:25:40.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Code\\CompileFile\\.netCoreAPI\\MyWebApi\\WebApplication1\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
+              "ToolTip": "D:\\Code\\CompileFile\\.netCoreAPI\\MyWebApi\\WebApplication1\\appsettings.json",
+              "RelativeToolTip": "WebApplication1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-19T09:12:45.505Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
