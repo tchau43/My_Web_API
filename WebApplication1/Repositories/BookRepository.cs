@@ -7,10 +7,10 @@ namespace WebApplication1.Repositories
 {
     public class BookRepository : IBookRepository
     {
-        private readonly BookStoreContext _context;
+        private readonly MyDbContext _context;
         private readonly IMapper _mapper;
 
-        public BookRepository(BookStoreContext context, IMapper mapper)
+        public BookRepository(MyDbContext context, IMapper mapper)
         {
             _context = context;
             _mapper = mapper;

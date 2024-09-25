@@ -11,7 +11,7 @@ using WebApplication1.Data;
 
 namespace WebApplication1.Migrations
 {
-    [DbContext(typeof(BookStoreContext))]
+    [DbContext(typeof(MyDbContext))]
     [Migration("20240917134858_AddIdentityAuthentication")]
     partial class AddIdentityAuthentication
     {

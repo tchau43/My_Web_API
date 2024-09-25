@@ -10,7 +10,7 @@ using WebApplication1.Data;
 
 namespace WebApplication1.Migrations
 {
-    [DbContext(typeof(BookStoreContext))]
+    [DbContext(typeof(MyDbContext))]
     partial class BookStoreContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
@@ -255,6 +255,154 @@ namespace WebApplication1.Migrations
                     b.ToTable("Book");
                 });
 
+            modelBuilder.Entity("WebApplication1.Data.Category", b =>
+                {
+                    b.Property<int>("CategoryId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CategoryId"));
+
+                    b.Property<string>("CategoryName")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.HasKey("CategoryId");
+
+                    b.ToTable("Category");
+                });
+
+            modelBuilder.Entity("WebApplication1.Data.Order", b =>
+                {
+                    b.Property<int>("orderId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("orderId"));
+
+                    b.Property<DateTime?>("deliveryDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("oderDate")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValueSql("GETUTCDATE()");
+
+                    b.Property<int>("orderStatus")
+                        .HasColumnType("int");
+
+                    b.Property<string>("receiver")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("receiverAddress")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("receiverPhoneNumber")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("orderId");
+
+                    b.ToTable("Order", (string)null);
+                });
+
+            modelBuilder.Entity("WebApplication1.Data.OrderDetail", b =>
+                {
+                    b.Property<Guid>("productId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("orderId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("quantity")
+                        .HasColumnType("int");
+
+                    b.Property<byte>("sale")
+                        .HasColumnType("tinyint");
+
+                    b.Property<double>("unitPrice")
+                        .HasColumnType("float");
+
+                    b.HasKey("productId", "orderId");
+
+                    b.HasIndex("orderId");
+
+                    b.ToTable("OrderDetail", (string)null);
+                });
+
+            modelBuilder.Entity("WebApplication1.Data.Product", b =>
+                {
+                    b.Property<Guid>("productId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("CategoryId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("productCategoryId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("productDescription")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("productName")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<byte>("productSale")
+                        .HasColumnType("tinyint");
+
+                    b.Property<double>("productUnitPrice")
+                        .HasColumnType("float");
+
+                    b.HasKey("productId");
+
+                    b.HasIndex("CategoryId");
+
+                    b.ToTable("Product");
+                });
+
+            modelBuilder.Entity("WebApplication1.Data.User", b =>
+                {
+                    b.Property<int>("userId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("userId"));
+
+                    b.Property<string>("userEmail")
+                        .IsRequired()
+                        .HasMaxLength(150)
+                        .HasColumnType("nvarchar(150)");
+
+                    b.Property<string>("userFullName")
+                        .IsRequired()
+                        .HasMaxLength(150)
+                        .HasColumnType("nvarchar(150)");
+
+                    b.Property<string>("userName")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("userPassword")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.HasKey("userId");
+
+                    b.HasIndex("userName")
+                        .IsUnique();
+
+                    b.ToTable("User");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -304,6 +452,53 @@ namespace WebApplication1.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("WebApplication1.Data.OrderDetail", b =>
+                {
+                    b.HasOne("WebApplication1.Data.Order", "Order")
+                        .WithMany("OrderDetails")
+                        .HasForeignKey("orderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired()
+                        .HasConstraintName("FK_OrderDetail_Order");
+
+                    b.HasOne("WebApplication1.Data.Product", "Product")
+                        .WithMany("OrderDetails")
+                        .HasForeignKey("productId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired()
+                        .HasConstraintName("FK_OrderDetail_Product");
+
+                    b.Navigation("Order");
+
+                    b.Navigation("Product");
+                });
+
+            modelBuilder.Entity("WebApplication1.Data.Product", b =>
+                {
+                    b.HasOne("WebApplication1.Data.Category", "Category")
+                        .WithMany("Products")
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Category");
+                });
+
+            modelBuilder.Entity("WebApplication1.Data.Category", b =>
+                {
+                    b.Navigation("Products");
+                });
+
+            modelBuilder.Entity("WebApplication1.Data.Order", b =>
+                {
+                    b.Navigation("OrderDetails");
+                });
+
+            modelBuilder.Entity("WebApplication1.Data.Product", b =>
+                {
+                    b.Navigation("OrderDetails");
                 });
 #pragma warning restore 612, 618
         }

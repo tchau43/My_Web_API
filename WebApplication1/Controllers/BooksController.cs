@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WebApplication1.Data;
+using WebApplication1.Helpers;
 
 namespace WebApplication1.Controllers
 {
@@ -13,15 +15,16 @@ namespace WebApplication1.Controllers
     [ApiController]
     public class BooksController : ControllerBase
     {
-        private readonly BookStoreContext _context;
+        private readonly MyDbContext _context;
 
-        public BooksController(BookStoreContext context)
+        public BooksController(MyDbContext context)
         {
             _context = context;
         }
 
         // GET: api/Books
         [HttpGet]
+        [Authorize(Roles = AppRole.Customer)]
         public async Task<ActionResult<IEnumerable<Book>>> GetBooks()
         {
             return await _context.Books!.ToListAsync();
@@ -29,6 +32,7 @@ namespace WebApplication1.Controllers
 
         // GET: api/Books/5
         [HttpGet("{id}")]
+        [Authorize(Roles = AppRole.Admin)]
         public async Task<ActionResult<Book>> GetBook(int id)
         {
             var book = await _context.Books!.FindAsync(id);

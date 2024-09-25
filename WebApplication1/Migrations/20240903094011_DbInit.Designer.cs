@@ -10,7 +10,7 @@ using WebApplication1.Data;
 
 namespace WebApplication1.Migrations
 {
-    [DbContext(typeof(BookStoreContext))]
+    [DbContext(typeof(MyDbContext))]
     [Migration("20240903094011_DbInit")]
     partial class DbInit
     {
