@@ -259,3 +259,4 @@ D:\Code\CompileFile\.netCoreAPI\MyWebApi\WebApplication1\bin\Debug\net8.0\Micros
 D:\Code\CompileFile\.netCoreAPI\MyWebApi\WebApplication1\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
 D:\Code\CompileFile\.netCoreAPI\MyWebApi\WebApplication1\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
 D:\Code\CompileFile\.netCoreAPI\MyWebApi\WebApplication1\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Code\CompileFile\.netCoreAPI\MyWebApi\WebApplication1\obj\Debug\net8.0\WebApplication1.sourcelink.json
